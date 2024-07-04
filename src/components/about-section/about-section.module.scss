@@ -1,0 +1,62 @@
+.aboutWrapper {
+  background: linear-gradient(180deg, #f9f5f4, #edeae6);
+  color: #bd2328;
+}
+
+.aboutContainer {
+  background: #ee9085;
+  border-radius: 2rem;
+  padding: 8rem 2rem;
+}
+
+.aboutContainer hr {
+  background-color: #bd2328;
+  border: none;
+  height: 1px;
+  margin: 2rem 1rem;
+}
+
+.aboutInfoNumbers {
+  grid-gap: 2rem;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutInfoNumbers h3 {
+  font-family: "Raleway",sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.aboutInfoLast {
+  font-family: "Raleway",sans-serif;
+  font-size: 1.2rem;
+  margin: 5rem 0 0 3rem;
+}
+
+.aboutInfoLast a {
+  color: #dd4045;
+  display: inline-block;
+  margin-left: .2rem;
+  position: relative;
+}
+
+.aboutInfoLast a svg {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  vertical-align: -0.125em;
+  margin: 0 .5rem;
+}
+
+.aboutList {
+  margin: 1rem 0 0;
+  text-align: left;
+  list-style: none;
+}
+
+.aboutList li {
+  padding: .1rem;
+}

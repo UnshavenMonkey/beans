@@ -1,0 +1,62 @@
+.historyPageWrapper {
+  background: #eeeae6;
+  padding: 5rem 2rem;
+}
+
+.historyPageContainer {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+.historyPageContainer h3 {
+  color: #e83a4b;
+  font-family: lobster;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.historyGrid {
+  grid-gap: 1rem;
+  display: grid;
+  font-size: 1.2rem;
+  grid-template-columns: repeat(4, auto);
+  padding: 1rem 1rem 3rem;
+  text-align: center;
+}
+
+.historyGrid img {
+  margin: auto;
+  width: 50%;
+}
+
+.historyCardWrapper {
+  align-items: center;
+  border: 1px solid #eeeae6;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.historyCardWrapper:hover {
+  background-color: #f9f5f4cc;
+  border: 1px solid #ec2c2f;
+  border-radius: 1rem;
+}
+
+.historyCardWrapper h4 {
+  color: #e83a4b;
+  padding-bottom: .5rem;
+}
+
+.historyCardWrapper p {
+  color: #e83a4b;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.beansLoading {
+  height: 100vh;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.beanCardWrapper {
+  align-items: center;
+  border: 1px solid #eeeae6;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  justify-content: space-around;
+  padding: 1.2rem;
+}
+
+.beanCardWrapper:hover {
+  background-color: #f9f5f4cc;
+  border: 1px solid #ec2c2f;
+  border-radius: 1rem;
+}
+
+.beanCardWrapper a {
+  color: #e83a4b;
+  text-decoration: none;
+}
+
+.beanCardWrapper h4 {
+  padding-bottom: .5rem;
+}
+
+.beanCardWrapper img {
+  width: 100%;
+}
+
+.beanCardWrapper p {
+  color: #e83a4b;
+  font-size: .8rem;
+  text-align: center;
+}

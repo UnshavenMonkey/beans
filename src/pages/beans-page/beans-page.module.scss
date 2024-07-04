@@ -1,0 +1,31 @@
+.beansPageWrapper {
+  background: #eeeae6;
+  padding: 5rem 2rem;
+}
+
+.beansPageContainer {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+.beansPageContainer h3 {
+  color: #e83a4b;
+  font-family: lobster;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.beansGrid {
+  grid-gap: 1rem;
+  display: grid;
+  font-size: 1.2rem;
+  grid-template-columns: repeat(4, auto);
+  padding: 1rem 1rem 3rem;
+  text-align: center;
+}
+
+.beansLoading {
+  height: 100vh;
+  text-align: center;
+}

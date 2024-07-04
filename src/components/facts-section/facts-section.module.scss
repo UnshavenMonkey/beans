@@ -1,0 +1,61 @@
+.factsContainer {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
+  background-color: #eeeae6;
+}
+
+.exampleFacts {
+  background: #fbd6d3;
+  border-radius: 2rem;
+  color: #bd2328;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 5rem 2rem;
+}
+
+.exampleFacts h2 {
+  font-size: 3rem;
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.factsSide {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem;
+  text-align: center;
+}
+
+.factsSide div {
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.factsSide h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.cherryImg {
+  width: 5rem;
+}
+
+.factsSide p {
+  text-align: center;
+}
+
+.itemWrapper {
+  padding: .75rem 0;
+}
+
+.exampleFacts a {
+  color: #bd2328;
+  display: inline-block;
+  font-size: 1.5rem;
+  position: relative;
+  text-decoration: none;
+  margin-top: 5rem;
+}

@@ -1,0 +1,110 @@
+.contentWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
+  padding: 0 1rem;
+  position: relative;
+  background-color: #f9f5f4;
+}
+
+.welcomeSection {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin: 0 auto;
+
+}
+
+.welcomeImgWrapper {
+  width: 40rem;
+}
+
+.welcomeImgWrapper:hover {
+  animation: favicon-shake .7s ease-in-out 2 alternate;
+}
+
+.welcomeImgWrapper img {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+@keyframes favicon-shake {
+  0%, 100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+}
+
+.welcomeTextWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  margin-right: 5rem;
+  text-align: center;
+  color: #ec2c2f;
+  font-family: "Roboto",sans-serif;
+}
+
+.welcomeTextWrapper h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.welcomeTextWrapper p {
+  color: #ee9085;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.welcomeTextWrapper a {
+  background: #e83a4b;
+  border: 1px solid #ec2c2f;
+  border-radius: 1.5rem;
+  color: #f9f5f4;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: .75rem;
+  text-decoration: none;
+}
+
+.welcomeDescription {
+  align-items: flex-end;
+  bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 90%;
+}
+
+.welcomeDescription div {
+  width: 10rem;
+}
+
+.welcomeDescription div p {
+  font-size: .7rem;
+  color: #ee9085;
+  margin-top: 1rem;
+}
+
+.welcomeDescription svg {
+  animation-duration: 3s;
+  color: #bd2328 !important;
+  text-align: right;
+  font-size: 2em;
+  height: 1em;
+}

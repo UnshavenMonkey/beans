@@ -1,0 +1,67 @@
+.container {
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1rem;
+  background-color: #eeeae6;
+}
+
+.beanCard {
+  background: #f9f5f4;
+  border-radius: 2.5rem;
+  margin: 3rem auto;
+  max-width: 885px;
+  padding: 3rem;
+}
+
+.beanCardWrapper {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #e83a4b;
+  margin: .75rem 0;
+}
+
+.beanCardWrapper p {
+  font-size: 1rem;
+}
+
+.imgWrapper {
+  margin: 3rem auto;
+  width: 30rem;
+}
+
+.imgWrapper img {
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.beanTextLeft {
+  text-align: left;
+}
+
+.beanGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gridItem {
+  color: #e83a4b;
+  margin: .75rem 0;
+}
+
+.beanCard a {
+  color: #e83a4b;
+  display: inline-block;
+  margin-top: 5rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.itemWrapper {
+  margin-bottom: 1rem;
+  color: #e83a4b;
+}
+
+.itemWrapper ul {
+  list-style: none;
+}

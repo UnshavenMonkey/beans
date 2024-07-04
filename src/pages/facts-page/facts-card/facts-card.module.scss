@@ -1,0 +1,26 @@
+.factCardWrapper {
+  align-items: center;
+  border: 1px solid #eeeae6;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.factCardWrapper:hover {
+  background-color: #f9f5f4cc;
+  border: 1px solid #ec2c2f;
+  border-radius: 1rem;
+}
+
+.factCardWrapper h4 {
+  color: #e83a4b;
+  padding-bottom: .5rem;
+}
+
+.factCardWrapper p {
+  color: #e83a4b;
+  font-size: .8rem;
+  text-align: center;
+}
+
